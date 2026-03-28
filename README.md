@@ -34,7 +34,7 @@ Solidity • Hardhat • Ethers.js • Web3 dApps
 ### 📫 How to Reach Me
 
 - **Email**: [rtagliavia.pp@gmail.com](mailto:rtagliavia.pp@gmail.com)  
-- **LinkedIn**: [linkedin.com/in/rtagliaviaz]([https://www.linkedin.com/in/robert-tagliavia](https://www.linkedin.com/in/rtagliaviaz/)) 
+- **LinkedIn**: [linkedin.com/in/rtagliaviaz](https://www.linkedin.com/in/rtagliaviaz/)
 <!--- **Portfolio / Blog**: coming soon!  --->
 ---
 <!---
