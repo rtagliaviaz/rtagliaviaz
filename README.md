@@ -4,7 +4,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Languages**  
 JavaScript • TypeScript • Python
@@ -25,16 +25,25 @@ Solidity • Hardhat • Ethers.js • Web3 dApps
 CRM APIs (HubSpot, Monday, Escala) • Third‑party APIs • Asterisk AMI
 
 **Infrastructure & DevOps**  
-Linux • Nginx • PM2 • SSH • AWS (EC2, S3) • Git • GitHub
+Linux • Nginx • PM2 • SSH • AWS (EC2, S3) • Git • GitHub • CI/CD 
 
 **Testing**  
 Jest •  Vitest
 
 
-##  Featured Projects
+## Featured Projects
 
-- **[Giftcard Shop](https://github.com/rtagliaviaz/giftcard-shop)** – Full‑stack crypto payment gateway (USDT / USDC on testnets). HD wallet address generation, WebSocket events, automated sweeper, and full test coverage.  
+- **[Giftcard Shop](https://github.com/rtagliaviaz/giftcard-shop)**  
+  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
+  [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)  
+  Full‑stack crypto payment gateway (USDT / USDC on testnets). HD wallet address generation, WebSocket events, automated sweeper, and full test coverage.
 
+- **[Telegram Bot for Giftcard Shop](https://github.com/rtagliaviaz/giftcard-shop-telegram-bot)**  
+  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Telegraf](https://img.shields.io/badge/Telegraf-4.0-blue)](https://telegraf.js.org/)  
+  Telegram bot that enables gift card purchases with USDC/USDT by generating deposit addresses and delivering codes upon payment confirmation. Features cart management, bilingual support (ES/EN), real‑time payment notifications via webhook, and CI/CD with GitHub Actions.
 
 ### 📫 How to Reach Me
 
