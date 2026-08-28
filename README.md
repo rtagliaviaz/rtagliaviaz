@@ -45,6 +45,15 @@ Jest •  Vitest
   [![Telegraf](https://img.shields.io/badge/Telegraf-4.0-blue)](https://telegraf.js.org/)  
   Telegram bot that enables gift card purchases with USDC/USDT by generating deposit addresses and delivering codes upon payment confirmation. Features cart management, bilingual support (ES/EN), real‑time payment notifications via webhook, and CI/CD with GitHub Actions.
 
+- **[Voice Note Assistant](https://github.com/rtagliaviaz/voice-note-assistant)**  
+  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org)
+  [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)](https://ollama.com/)
+  [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)  
+  Voice‑powered note‑taking assistant running 100% locally. Integrates FasterWhisper (STT), Ollama (LLM), and edge‑tts (TTS) with a React + TypeScript frontend and Node.js backend. Multi‑language support (ES/EN), real‑time streaming, and persistent storage with MySQL.
+
+
 ### 📫 How to Reach Me
 
 - **Email**: [rtagliavia.pp@gmail.com](mailto:rtagliavia.pp@gmail.com)  
