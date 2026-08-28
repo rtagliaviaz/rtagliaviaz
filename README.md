@@ -1,6 +1,6 @@
 # Hi, I'm Robert Tagliavia
 
-**Full Stack Developer** with 4+ years of experience building scalable web applications and backend systems. I specialize in **Node.js**, **React**, and real-time architectures, and I'm currently expanding into **web3** and **blockchain development**.
+**Full Stack Developer** with 4+ years of experience building scalable web applications and backend systems. I specialize in **Node.js**, **React**, and real-time architectures.
 
 ---
 
@@ -49,6 +49,4 @@ Jest •  Vitest
 
 - **Email**: [rtagliavia.pp@gmail.com](mailto:rtagliavia.pp@gmail.com)  
 - **LinkedIn**: [linkedin.com/in/rtagliaviaz](https://www.linkedin.com/in/rtagliaviaz/)
-<!--- **Portfolio / Blog**: coming soon!  --->
----
-⭐️ *I’m open to new opportunities and collaborations in web3, blockchain, and innovative full‑stack projects.*
+
