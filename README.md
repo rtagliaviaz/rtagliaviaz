@@ -18,8 +18,11 @@ MySQL
 **Frontend**  
 React • Next.js
 
+**AI & Voice**  
+FasterWhisper • edge-tts • Ollama • FFmpeg
+
 **Blockchain**  
-Solidity • Hardhat • Ethers.js • Web3 dApps
+Hardhat • Ethers.js • Web3 dApps
 
 **Integrations & APIs**  
 CRM APIs (HubSpot, Monday, Escala) • Third‑party APIs • Asterisk AMI
