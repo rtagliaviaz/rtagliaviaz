@@ -3,7 +3,7 @@
 ## Video Streaming & Media Engineer
 
 I build video pipelines and real-time systems. Currently focused on adaptive 
-streaming (HLS/CMAF), GPU-accelerated encoding, and video quality analysis 
+streaming HLS/DASH CMAF, GPU-accelerated encoding, and video quality analysis 
 with VMAF. I ship the whole product around it: Node.js + TypeScript on the 
 backend, React + hls.js on the frontend.
 
@@ -14,7 +14,7 @@ backend, React + hls.js on the frontend.
 Self-hosted HLS/CMAF streaming pipeline with GPU-accelerated encoding (NVENC, 
 ~20x faster than CPU), adaptive bitrate (144p–1440p), persistent transcoding 
 queue (BullMQ + Redis), and SSE-driven live progress.  
-`Node.js` `FFmpeg` `NVENC` `HLS` `CMAF` `Redis` `BullMQ`
+`Node.js` `FFmpeg` `NVENC` `HLS` `DASH` `DRM` `WATERMARK` `CMAF` `Redis` `BullMQ` 
 
 **[audio-track-remover](https://github.com/rtagliaviaz/audio-track-remover)**  
 Local-first tool to strip or keep specific audio tracks from video files. 
@@ -29,10 +29,10 @@ with edge-tts, LLM with Ollama + llama3.2.
 ### Tech Stack
 
 **Media & Streaming**  
-FFmpeg • HLS • CMAF (fMP4) • NVENC (H.264 / HEVC) • VMAF • HLS.js • Adaptive Bitrate Streaming
+FFmpeg • HLS • DASH • CMAF (fMP4) • NVENC (H.264 / HEVC) • DRM • VMAF • HLS.js • Adaptive Bitrate Streaming (ABR)
 
 **Languages**  
-TypeScript • JavaScript • Python • SQL
+TypeScript • JavaScript • Python • SQL • GO (Learning)
 
 **Backend**  
 Node.js • Express • REST APIs • GraphQL • Socket.io • JWT • Webhooks • BullMQ • Redis
