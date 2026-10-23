@@ -2,46 +2,36 @@
 
 ## Video Streaming & Media Engineer
 
-I build video pipelines and real-time systems. Currently focused on adaptive 
-streaming HLS/DASH CMAF, GPU-accelerated encoding, and video quality analysis 
-with VMAF. I ship the whole product around it: Node.js + TypeScript on the 
-backend, React + hls.js on the frontend.
+I'm a developer building video streaming pipelines and real-time systems. Recent work includes VOD transcoding with FFmpeg/NVENC, multi-format delivery with DRM packaging (HLS/DASH), a WebRTC SFU with simulcast, and forensic watermarking in Go. I work across the stack: TypeScript/Node.js on the backend, React on the frontend, and Go/Python for video processing.
 
 ---
 ## Featured Projects
 
-**[video-streaming-service](https://github.com/rtagliaviaz/video-streaming-service)**  
-Self-hosted HLS/CMAF streaming pipeline with GPU-accelerated encoding (NVENC, 
-~20x faster than CPU), adaptive bitrate (144p–1440p), persistent transcoding 
-queue (BullMQ + Redis), and SSE-driven live progress.  
-`Node.js` `FFmpeg` `NVENC` `HLS` `DASH` `DRM` `WATERMARK` `CMAF` `Redis` `BullMQ` 
+### [video-streaming-service](https://github.com/rtagliaviaz/video-streaming-service)
+A self-hosted VOD pipeline with GPU-accelerated transcoding (NVENC), adaptive bitrate (up to 7 renditions), CMAF/fMP4 packaging, and **dual DRM delivery**: HLS with AES-128 and DASH with ClearKey + EME. Includes a persistent BullMQ/Redis job queue, SSE progress updates, multi-audio support, subtitle extraction, and a dual-backend player (HLS.js + dash.js) with automatic capability detection.
+`Node.js` `FFmpeg` `NVENC` `HLS` `DASH` `DRM` `CMAF` `BullMQ` `Redis`
 
-**[audio-track-remover](https://github.com/rtagliaviaz/audio-track-remover)**  
-Local-first tool to strip or keep specific audio tracks from video files. 
-Batch processing, real-time progress via SSE, and a clean React UI.  
-`React` `Node.js` `FFmpeg` `SSE` `TypeScript`
+### [dualstream](https://github.com/rtagliaviaz/dualstream)
+A WebRTC Selective Forwarding Unit (SFU) built from scratch with **Pion and GStreamer**. Accepts three simulcast layers (`h`, `m`, `l`), forwards one layer per viewer based on RTCP REMB feedback, and switches layers dynamically without renegotiation. Includes an **HLS fallback** for clients that cannot use WebRTC, with automatic and manual switching in the viewer.
+`Go` `WebRTC` `Pion` `GStreamer` `Simulcast` `HLS` `SFU`
 
-**[voice-note-assistant](https://github.com/rtagliaviaz/voice-note-assistant)**  
-100% local voice-powered note-taking assistant. STT with FasterWhisper, TTS 
-with edge-tts, LLM with Ollama + llama3.2.  
-`Node.js` `FasterWhisper` `Ollama` `MySQL` `SSE`
+### [watermark-service](https://github.com/rtagliaviaz/watermark-service)
+A pure-Go CLI for **forensic and A/B watermarking** of video streams. Implements its own 2D DCT, CRC32-framed ID codec, Reed-Solomon FEC, and multi-frame voting. Forensic mode embeds a full ID into every frame for leak tracing; A/B mode embeds a single bit per segment for per-session traceability at scale, with constant storage overhead.
+`Go` `DCT` `Watermarking` `Reed-Solomon` `DRM` `Video Security`
 
 ### Tech Stack
 
 **Media & Streaming**  
-FFmpeg • HLS • DASH • CMAF (fMP4) • NVENC (H.264 / HEVC) • DRM • VMAF • HLS.js • Adaptive Bitrate Streaming (ABR)
+FFmpeg • HLS • DASH • CMAF (fMP4) • NVENC (H.264/HEVC) • DRM (AES-128, ClearKey+EME) • VMAF • WebRTC (Pion) • GStreamer • Simulcast • ABR
 
 **Languages**  
-TypeScript • JavaScript • Python • SQL • GO (Learning)
+TypeScript • JavaScript • Go • Python • SQL
 
 **Backend**  
-Node.js • Express • REST APIs • GraphQL • Socket.io • JWT • Webhooks • BullMQ • Redis
+Node.js • Express • REST APIs • GraphQL • Socket.io • JWT • Webhooks • BullMQ • Redis • FastAPI
 
 **Frontend**  
 React • Next.js
-
-**AI & Voice**  
-FasterWhisper (STT) • edge-tts (TTS) • Ollama
 
 **Database**  
 MySQL
@@ -50,7 +40,7 @@ MySQL
 CRM APIs (HubSpot, Monday, Escala, Clientify) • Asterisk AMI • Third-party APIs
 
 **Infrastructure & DevOps**  
-Linux • Docker • Docker Compose • Nginx • PM2 • SSH • AWS (EC2, S3, EFS, Glacier) • GitHub Actions • CI/CD
+Linux • Docker • Docker Compose • Nginx • MinIO (S3-compatible) • AWS (EC2, S3, EFS, Glacier) • GitHub Actions • CI/CD
 
 **Testing**  
 Jest • Vitest
